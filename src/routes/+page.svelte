@@ -5,7 +5,10 @@
 <div class="home-main" />
 <div class="home-video">
 	<video playsinline autoplay muted loop>
-		<source src="/src/background.mp4" type="video/mp4" />
+		<source
+			src="https://drive.google.com/uc?export=download&id=1ahVqgMlBXWLPQU_4E7GiDWA9lY5FvNlw"
+			type="video/mp4"
+		/>
 		Your browser doesn't support the video toDateString();
 	</video>
 </div>
