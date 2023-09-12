@@ -1,0 +1,30 @@
+.home-main{
+  background: black;
+  position: static;
+  height: 105vh;
+}
+
+.home-video {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.home-title {
+  font-family: helvetica, sans-serif;
+  font-size: 3rem;
+  line-height: 1rem;
+  -webkit-text-stroke-width: 3px;
+  -webkit-text-stroke-color: black;
+  color: rgba(0,0,0,0);
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  text-align: center;
+  transform: translate(-50%, -95%);
+}
+
+video {
+  border-radius: 10px;
+}

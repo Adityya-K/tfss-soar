@@ -1,0 +1,42 @@
+.navbar-main{
+  background: rgba(0,0,0,1);
+  display: flex;
+  position: sticky;
+  top: 0px;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  height: 5vh;
+}
+
+.nav-item {
+  margin-right: 1vw;
+}
+
+.nav-link {
+  color: white;
+  text-decoration: underline 0.05em rgba(0,0,0,0);
+  transition: text-decoration-color 1s;
+}
+
+.nav-link:hover {
+  text-decoration-color: rgba(255,255,255,1);
+}
+
+.logo {
+  margin-left: 1vw;
+  color: white;
+}
+
+nav ul {
+  display: flex;
+  list-style-type: none;
+}
+
+nav a {
+  text-decoration: none;
+}
+
+body {
+  margin: 0;
+}
