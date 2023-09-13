@@ -1,5 +1,6 @@
 <script>
 	import '/src/styles/home.css';
+	import Card from '$lib/Card.svelte';
 </script>
 
 <div class="home-video">
@@ -13,5 +14,10 @@
 	<div class="home-title">
 		<h1>SOAR</h1>
 		<h1>2023</h1>
+	</div>
+</div>
+<div class="grid-section">
+	<div class="grid">
+		<Card>Hallo</Card>
 	</div>
 </div>
