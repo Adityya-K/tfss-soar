@@ -6,11 +6,11 @@
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
-  height: 5vh;
+  height: 80px;
 }
 
 .nav-item {
-  margin-right: 1vw;
+  margin-right: 2rem;
 }
 
 .nav-link {
@@ -24,7 +24,7 @@
 }
 
 .logo {
-  margin-left: 1vw;
+  margin-left: 2rem;
   color: white;
 }
 
