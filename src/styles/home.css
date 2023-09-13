@@ -5,11 +5,6 @@
 }
 
 .home-video {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  object-fit: fill;
-  transform: translate(-50%, -50%);
 }
 
 .home-title {
@@ -23,9 +18,13 @@
   top: 50%;
   left: 50%;
   text-align: center;
-  transform: translate(-50%, -100%);
+  transform: translate(-50%, -75%);
 }
 
 video {
-  border-radius: 10px;
+  width: 100vw;
+  height: 100vh;
+  object-fit: cover;
+  top: 50px;
+  z-index: -1;
 }
