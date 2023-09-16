@@ -1,7 +1,6 @@
-.home-main{
-  background: black;
+.home-video{
   position: static;
-  height: 1000px;
+  padding-top: 79px;
 }
 
 .home-title {
@@ -17,18 +16,36 @@
   color: rgba(0,0,0,0);
   position: absolute;
   top: 40%;
+  z-index: 0;
+}
+
+.soar-text {
+  padding-right: 1vw;
+  padding-left: 1vw;
+}
+
+.year-text {
+  padding-right: 1vw;
+  padding-left: 1vw;
 }
 
 .grid-section {
   position: absolute;
-  background: rgba(0, 9, 75, 1);
+  background: black;
   width: 100vw;
   height: 1000px;
   top: 106vh;
 }
 
 .grid {
+  display: grid;
+  grid-template-columns: 10% 20% 20% 20% 10%;
+  grid-template-rows: 25px 150px;
+}
 
+.grid-item-1 {
+  position: sticky;
+  top: 0px;
 }
 
 video {
