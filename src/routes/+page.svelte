@@ -12,12 +12,14 @@
 		Your browser doesn't support the video toDateString();
 	</video>
 	<div class="home-title">
-		<h1>SOAR</h1>
-		<h1>2023</h1>
+		<h1 class="soar-text">SOAR</h1>
+		<h1 class="year-text">2023</h1>
 	</div>
 </div>
 <div class="grid-section">
 	<div class="grid">
-		<Card>Hallo</Card>
+		<div class="grid-item-1">
+			<Card>Hallo</Card>
+		</div>
 	</div>
 </div>
