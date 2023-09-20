@@ -18,8 +18,14 @@
 </div>
 <div class="grid-section">
 	<div class="grid">
-		<div class="grid-item-1">
-			<Card>Hallo</Card>
-		</div>
+		<Card>Hallo</Card>
+		<Card>Hallo</Card>
+		<Card>Hallo</Card>
+		<Card>Hallo</Card>
+		<Card>Hallo</Card>
+		<Card>Hallo</Card>
+		<Card>Hallo</Card>
+		<Card>Hallo</Card>
+		<Card>Hallo</Card>
 	</div>
 </div>
