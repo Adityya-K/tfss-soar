@@ -18,14 +18,16 @@
 </div>
 <div class="grid-section">
 	<div class="grid">
-		<Card>Hallo</Card>
-		<Card>Hallo</Card>
-		<Card>Hallo</Card>
-		<Card>Hallo</Card>
-		<Card>Hallo</Card>
-		<Card>Hallo</Card>
-		<Card>Hallo</Card>
-		<Card>Hallo</Card>
-		<Card>Hallo</Card>
+		<Card>1</Card>
+		<Card>2</Card>
+		<Card>3</Card>
+		<Card>4</Card>
+		<Card>5</Card>
+		<Card>6</Card>
+		<Card>7</Card>
+		<Card>8</Card>
+		<div class="overflow-card">
+			<Card>9</Card>
+		</div>
 	</div>
 </div>

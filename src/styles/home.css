@@ -43,10 +43,14 @@
 
 .grid {
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  grid-template-columns: repeat(3, minmax(300px, 1fr));
   column-gap: 100px;
   row-gap: 50px;
   padding: 10% 10% 10% 10%;
+}
+
+.overflow-card {
+  display: initial;
 }
 
 
@@ -56,4 +60,23 @@ video {
   object-fit: cover;
   top: 50px;
   z-index: -1;
+}
+
+
+@media only screen and (max-width: 1400px) {
+  .grid {
+    grid-template-columns: repeat(2, minmax(300px, 1fr));
+  }
+  .overflow-card {
+    display: none;
+  }
+}
+
+@media only screen and (max-width: 900px) {
+  .grid {
+    grid-template-columns: repeat(1, minmax(300px, 1fr));
+  }
+  .overflow-card {
+    display: initial;
+  }
 }
