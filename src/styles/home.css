@@ -1,6 +1,7 @@
 .home-video{
   position: static;
   padding-top: 79px;
+  background: rgba(0,0,0,1);
 }
 
 .home-title {
